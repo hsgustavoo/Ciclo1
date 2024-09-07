@@ -1,0 +1,427 @@
+/* Gustavo's Tech - Desenvolvimento e Design */
+
+/* Define a cor de fundo do corpo da página */
+body {
+    background-color: #f0f8ff; /* Azul bebê */
+    color: #333; /* Cor do texto padrão */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #003366; /* Azul marinho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+nav ul li button:hover {
+    color: #bbffff; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estiliza as seções principais */
+main {
+    padding: 20px;
+    color: #333; /* Cor do texto */
+}
+
+h2 {
+    color: #003366; /* Azul marinho */
+}
+
+/* Estiliza a imagem de perfil */
+.imagem-de-perfil {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estiliza o contêiner de botões */
+.button-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-container a {
+    text-decoration: none;
+}
+
+.big-button {
+    background-color: #003366; /* Azul marinho */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.big-button:hover {
+    background-color: #002244; /* Azul marinho mais escuro ao passar o mouse */
+}
+
+/* Estiliza a seção de serviços */
+#services {
+    background-color: #e0e0e0; /* Cinza claro */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.service-img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.services {
+    margin-top: 20px;
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #003366; /* Azul marinho */
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    color: #bbffff; /* Cor de destaque ao passar o mouse */
+}
+
+/* Biografia Gustavo - Desenvolvimento e Design */
+
+/* Define a cor de fundo do corpo da página */
+body {
+    background-color: #f0f8ff; /* Azul bebê */
+    color: #333; /* Cor do texto padrão */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #003366; /* Azul marinho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    max-width: 150px;
+    height: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+nav ul li button:hover {
+    color: #bbffff; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estiliza as seções principais */
+main {
+    padding: 20px;
+    color: #333; /* Cor do texto */
+}
+
+/* Estiliza a seção de biografia */
+.bio {
+    background-color: #ffffff; /* Branco */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+.bio img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Estiliza a seção de hobbies */
+.hobbies {
+    background-color: #e0e0e0; /* Cinza claro */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.hobbies h2 {
+    color: #003366; /* Azul marinho */
+    text-align: center;
+}
+
+.hobby {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.hobby img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.hobby p {
+    margin: 0;
+    text-align: justify;
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #003366; /* Azul marinho */
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Ferramentas Gustavo - Desenvolvimento e Design */
+
+/* Define a cor de fundo do corpo da página */
+body {
+    background-color: #f0f8ff; /* Azul bebê */
+    color: #333; /* Cor do texto padrão */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o cabeçalho */
+header {
+    background-color: #003366; /* Azul marinho */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centraliza os itens */
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #bbffff; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estiliza as seções principais */
+main {
+    padding: 20px;
+    color: #333; /* Cor do texto */
+}
+
+/* Estiliza a seção de ferramentas */
+#ferramentas {
+    background-color: #ffffff; /* Branco */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#ferramentas h2 {
+    color: #003366; /* Azul marinho */
+    text-align: center;
+}
+
+#ferramentas ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#ferramentas ul li {
+    display: block; /* Controla o espaçamento dos itens */
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+}
+
+.tool-img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+#ferramentas h3 {
+    margin-top: 0;
+    margin-bottom: 5px; /* Espaço entre o título e o parágrafo */
+}
+
+/* Estiliza os links dos títulos das redes sociais */
+#ferramentas h3 a {
+    color: #003366; /* Azul marinho */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+#ferramentas h3 a:hover {
+    color: #add8e6; /* Azul claro ao passar o mouse */
+}
+
+#ferramentas p {
+    margin-top: 0; /* Remove qualquer espaçamento adicional no topo do parágrafo */
+    text-align: justify;
+}
+
+/* Estiliza a seção de contato */
+#formulario {
+    background-color: #e0e0e0; /* Cinza claro */
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+#formulario h2 {
+    color: #003366; /* Azul marinho */
+    text-align: center;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os itens do formulário */
+}
+
+#formulario label {
+    margin-bottom: 5px;
+}
+
+#formulario input, #formulario textarea {
+    padding: 10px;
+    width: 100%; /* Alarga os inputs */
+    max-width: 500px; /* Define um limite de largura */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+#formulario button {
+    background-color: #003366; /* Azul marinho */
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#formulario button:hover {
+    background-color: #bbffff; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estiliza o rodapé */
+footer {
+    background-color: #003366; /* Azul marinho */
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
